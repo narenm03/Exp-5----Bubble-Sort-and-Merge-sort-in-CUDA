@@ -321,6 +321,8 @@ int main() {
 }
 ```
 ## OUTPUT:
+<img width="1600" height="304" alt="image" src="https://github.com/user-attachments/assets/9ac02700-dedc-4d86-9ab0-80eafcd794f9" />
+
 <img width="647" height="256" alt="image" src="https://github.com/user-attachments/assets/a45561cd-2d1a-4e15-baf1-2aaf2b4ce3cd" />
 
 ## RESULT:
