@@ -321,7 +321,7 @@ int main() {
 }
 ```
 ## OUTPUT:
-<img width="1600" height="304" alt="image" src="https://github.com/user-attachments/assets/07cccc9d-7725-49a5-a9a4-fcdda3144c24" />
+<img width="647" height="256" alt="image" src="https://github.com/user-attachments/assets/a45561cd-2d1a-4e15-baf1-2aaf2b4ce3cd" />
 
 ## RESULT:
-Thus, the program has been executed using CUDA to compare CPU and GPU implementations of Bubble Sort and Merge Sort. It is observed that CPU Bubble Sort took 277.072696 milliseconds, GPU Bubble Sort took 148.063873 milliseconds, CPU Merge Sort took 2.377534 milliseconds, and GPU Merge Sort took 369.604614 milliseconds. Hence, for this dataset, GPU Bubble Sort performed faster than CPU Bubble Sort, whereas CPU Merge Sort performed significantly faster than the GPU implementation.
+Thus, the program has been executed using CUDA to analyze the performance of Bubble Sort across different array sizes and block sizes. For an array size of 512, execution took 55.483070 ms (16 threads/block), 0.075808 ms (32 threads/block), and 0.074432 ms (64 threads/block). For an array size of 1024, execution times were 0.129792 ms (16 threads/block), 0.130848 ms (32 threads/block), and 0.132928 ms (64 threads/block). For an array size of 2048, execution times were 0.252992 ms (16 threads/block), 0.248224 ms (32 threads/block), and 0.249888 ms (64 threads/block). Hence, execution time increases with array size, while increasing threads per block significantly improves performance for small datasets by optimizing GPU thread utilization.
